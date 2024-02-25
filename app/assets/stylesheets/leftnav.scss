@@ -1,0 +1,33 @@
+@import './colors.scss';
+
+.leftnav-container {
+  background-color: $background-blue;
+  min-height: 95vh;
+  flex: 1;
+  color: white;
+  min-width: 200px;
+
+  h2 {
+    font-size: 16px;
+    color: $light-blue;
+  }
+
+  .links {
+    padding: 20px;
+
+
+    h2:hover {
+      // text-decoration: underline;
+      color: white;
+    }
+
+    ul {
+      padding: 10px;
+
+      li {
+        padding-top: 5px;
+        font-size: 14px;
+      }
+    }
+  }
+}
